@@ -1,53 +1,101 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="7" passed="6" failed="0" skipped="0">
+<testng-results ignored="2" total="11" passed="9" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-05-06T21:47:33 IST" name="LoanDepartmentSuite" finished-at="2022-05-06T21:47:33 IST" duration-ms="60">
+  <suite started-at="2022-05-06T22:57:06 IST" name="LoanDepartmentSuite" finished-at="2022-05-06T22:57:06 IST" duration-ms="121">
     <groups>
       <group name="Smoke">
-        <method signature="TestNgDay5.testcase3()[pri:0, instance:test.TestNgDay5@1b7cc17c]" name="testcase3" class="test.TestNgDay5"/>
-        <method signature="TestNgDay5.testcase1()[pri:0, instance:test.TestNgDay5@1b7cc17c]" name="testcase1" class="test.TestNgDay5"/>
+        <method signature="TestNgDay5.testcase3()[pri:0, instance:test.TestNgDay5@55b699ef]" name="testcase3" class="test.TestNgDay5"/>
+        <method signature="TestNgDay5.testcase1()[pri:0, instance:test.TestNgDay5@55b699ef]" name="testcase1" class="test.TestNgDay5"/>
       </group> <!-- Smoke -->
     </groups>
-    <test started-at="2022-05-06T21:47:33 IST" name="Regression" finished-at="2022-05-06T21:47:33 IST" duration-ms="60">
+    <test started-at="2022-05-06T22:57:06 IST" name="Regression" finished-at="2022-05-06T22:57:06 IST" duration-ms="121">
       <class name="test.TestNgDay5">
-        <test-method is-config="true" signature="firstTobeRun()[pri:0, instance:test.TestNgDay5@1b7cc17c]" started-at="2022-05-06T21:47:33 IST" name="firstTobeRun" finished-at="2022-05-06T21:47:33 IST" duration-ms="17" status="PASS">
+        <test-method is-config="true" signature="firstTobeRun()[pri:0, instance:test.TestNgDay5@55b699ef]" started-at="2022-05-06T22:57:06 IST" name="firstTobeRun" finished-at="2022-05-06T22:57:06 IST" duration-ms="6" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- firstTobeRun -->
-        <test-method is-config="true" signature="prerequsite()[pri:0, instance:test.TestNgDay5@1b7cc17c]" started-at="2022-05-06T21:47:33 IST" name="prerequsite" finished-at="2022-05-06T21:47:33 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="prerequsite()[pri:0, instance:test.TestNgDay5@55b699ef]" started-at="2022-05-06T22:57:06 IST" name="prerequsite" finished-at="2022-05-06T22:57:06 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- prerequsite -->
-        <test-method signature="testcase2()[pri:0, instance:test.TestNgDay5@1b7cc17c]" started-at="2022-05-06T21:47:33 IST" name="testcase2" finished-at="2022-05-06T21:47:33 IST" duration-ms="4" status="PASS">
+        <test-method signature="testcase2()[pri:0, instance:test.TestNgDay5@55b699ef]" started-at="2022-05-06T22:57:06 IST" name="testcase2" finished-at="2022-05-06T22:57:06 IST" duration-ms="9" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testcase2 -->
-        <test-method signature="testcase3()[pri:0, instance:test.TestNgDay5@1b7cc17c]" started-at="2022-05-06T21:47:33 IST" name="testcase3" finished-at="2022-05-06T21:47:33 IST" duration-ms="1" status="PASS">
+        <test-method signature="testcase3()[pri:0, instance:test.TestNgDay5@55b699ef]" started-at="2022-05-06T22:57:06 IST" name="testcase3" finished-at="2022-05-06T22:57:06 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testcase3 -->
-        <test-method signature="testcase6()[pri:0, instance:test.TestNgDay5@1b7cc17c]" started-at="2022-05-06T21:47:33 IST" name="testcase6" finished-at="2022-05-06T21:47:33 IST" duration-ms="7" status="PASS">
+        <test-method signature="testcase6()[pri:0, instance:test.TestNgDay5@55b699ef]" started-at="2022-05-06T22:57:06 IST" name="testcase6" finished-at="2022-05-06T22:57:06 IST" duration-ms="6" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testcase6 -->
-        <test-method signature="testcase7()[pri:0, instance:test.TestNgDay5@1b7cc17c]" started-at="2022-05-06T21:47:33 IST" name="testcase7" finished-at="2022-05-06T21:47:33 IST" duration-ms="2" status="PASS">
+        <test-method signature="testcase7()[pri:0, instance:test.TestNgDay5@55b699ef]" started-at="2022-05-06T22:57:06 IST" name="testcase7" finished-at="2022-05-06T22:57:06 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testcase7 -->
-        <test-method signature="testcase1()[pri:0, instance:test.TestNgDay5@1b7cc17c]" started-at="2022-05-06T21:47:33 IST" name="testcase1" finished-at="2022-05-06T21:47:33 IST" duration-ms="1" status="PASS">
+        <test-method signature="testcase9(java.lang.String,java.lang.String)[pri:0, instance:test.TestNgDay5@55b699ef]" started-at="2022-05-06T22:57:06 IST" name="testcase9" data-provider="getData" finished-at="2022-05-06T22:57:06 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FirstSetUserName]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase9 -->
+        <test-method signature="testcase9(java.lang.String,java.lang.String)[pri:0, instance:test.TestNgDay5@55b699ef]" started-at="2022-05-06T22:57:06 IST" name="testcase9" data-provider="getData" finished-at="2022-05-06T22:57:06 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SecondSetUserName]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase9 -->
+        <test-method signature="testcase9(java.lang.String,java.lang.String)[pri:0, instance:test.TestNgDay5@55b699ef]" started-at="2022-05-06T22:57:06 IST" name="testcase9" data-provider="getData" finished-at="2022-05-06T22:57:06 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ThirdSetUserName]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase9 -->
+        <test-method signature="testcase1()[pri:0, instance:test.TestNgDay5@55b699ef]" started-at="2022-05-06T22:57:06 IST" name="testcase1" finished-at="2022-05-06T22:57:06 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testcase1 -->
-        <test-method signature="testcase4()[pri:0, instance:test.TestNgDay5@1b7cc17c]" started-at="2022-05-06T21:47:33 IST" name="testcase4" finished-at="2022-05-06T21:47:33 IST" depends-on-methods="test.TestNgDay5.testcase2, test.TestNgDay5.testcase3" duration-ms="2" status="PASS">
+        <test-method signature="testcase4()[pri:0, instance:test.TestNgDay5@55b699ef]" started-at="2022-05-06T22:57:06 IST" name="testcase4" finished-at="2022-05-06T22:57:06 IST" depends-on-methods="test.TestNgDay5.testcase2, test.TestNgDay5.testcase3" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testcase4 -->
-        <test-method is-config="true" signature="postrequiste()[pri:0, instance:test.TestNgDay5@1b7cc17c]" started-at="2022-05-06T21:47:33 IST" name="postrequiste" finished-at="2022-05-06T21:47:33 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="postrequiste()[pri:0, instance:test.TestNgDay5@55b699ef]" started-at="2022-05-06T22:57:06 IST" name="postrequiste" finished-at="2022-05-06T22:57:06 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postrequiste -->
-        <test-method is-config="true" signature="lastTobeRun()[pri:0, instance:test.TestNgDay5@1b7cc17c]" started-at="2022-05-06T21:47:33 IST" name="lastTobeRun" finished-at="2022-05-06T21:47:33 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="lastTobeRun()[pri:0, instance:test.TestNgDay5@55b699ef]" started-at="2022-05-06T22:57:06 IST" name="lastTobeRun" finished-at="2022-05-06T22:57:06 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lastTobeRun -->
