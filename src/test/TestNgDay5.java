@@ -1,5 +1,6 @@
 package test;
 
+import org.testng.Assert;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeSuite;
@@ -38,6 +39,7 @@ public class TestNgDay5 {
 	@Test
 	public void testcase7() {
 		System.out.println("This is test cases- 7");
+		Assert.assertTrue(false);
 	}
 	@Parameters({"URL"})
 	@Test(enabled = false)

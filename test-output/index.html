@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -40,7 +40,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-LoanDepartmentSuite" class="navigator-link">
-              <span class="suite-name border-passed">LoanDepartmentSuite</span>
+              <span class="suite-name border-failed">LoanDepartmentSuite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-LoanDepartmentSuite" class="navigator-link ">
-                    <span>D:\Subrat2022\SELENIUM\workspace-selenium\TestNg_Framework\testng3.xml</span>
+                    <span>D:\Subrat2022\SELENIUM\workspace-selenium\TestNg_Framework\testng4.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -93,7 +93,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">6 methods,   6 passed</span>
+                    <span class="method-stats">9 methods, 1 failed,   8 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-LoanDepartmentSuite" class="hide-methods failed suite-LoanDepartmentSuite"> (hide)</a> <!-- hide-methods failed suite-LoanDepartmentSuite -->
+                      <a href="#" panel-name="suite-LoanDepartmentSuite" class="show-methods failed suite-LoanDepartmentSuite"> (show)</a> <!-- show-methods failed suite-LoanDepartmentSuite -->
+                    </span>
+                    <div class="method-list-content failed suite-LoanDepartmentSuite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-LoanDepartmentSuite" title="test.TestNgDay5" class="method navigator-link" hash-for-method="testcase7">testcase7</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-LoanDepartmentSuite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -129,7 +143,17 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-LoanDepartmentSuite" title="test.TestNgDay5" class="method navigator-link" hash-for-method="testcase7">testcase7</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-LoanDepartmentSuite" title="test.TestNgDay5" class="method navigator-link" hash-for-method="testcase9(SecondSetUserName, password2)">testcase9(SecondSetUserName, password2)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-LoanDepartmentSuite" title="test.TestNgDay5" class="method navigator-link" hash-for-method="testcase9(ThirdSetUserName, password3)">testcase9(ThirdSetUserName, password3)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-LoanDepartmentSuite" title="test.TestNgDay5" class="method navigator-link" hash-for-method="testcase9(FirstSetUserName, password1)">testcase9(FirstSetUserName, password1)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-LoanDepartmentSuite -->
@@ -144,6 +168,26 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-LoanDepartmentSuite" class="panel LoanDepartmentSuite">
+          <div class="suite-LoanDepartmentSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">test.TestNgDay5</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcase7">
+                  </a> <!-- testcase7 -->
+                  <span class="method-name">testcase7</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at test.TestNgDay5.testcase7(TestNgDay5.java:42)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-LoanDepartmentSuite-class-failed -->
           <div class="suite-LoanDepartmentSuite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -187,9 +231,26 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="testcase7">
-                  </a> <!-- testcase7 -->
-                  <span class="method-name">testcase7</span>
+                  <a name="testcase9(SecondSetUserName, password2)">
+                  </a> <!-- testcase9(SecondSetUserName, password2) -->
+                  <span class="method-name">testcase9</span>
+                  <span class="parameters">(SecondSetUserName, password2)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcase9(ThirdSetUserName, password3)">
+                  </a> <!-- testcase9(ThirdSetUserName, password3) -->
+                  <span class="method-name">testcase9</span>
+                  <span class="parameters">(ThirdSetUserName, password3)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcase9(FirstSetUserName, password1)">
+                  </a> <!-- testcase9(FirstSetUserName, password1) -->
+                  <span class="method-name">testcase9</span>
+                  <span class="parameters">(FirstSetUserName, password1)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -197,14 +258,18 @@
         </div> <!-- panel LoanDepartmentSuite -->
         <div panel-name="test-xml-LoanDepartmentSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">D:\Subrat2022\SELENIUM\workspace-selenium\TestNg_Framework\testng3.xml</span>
+            <span class="header-content">D:\Subrat2022\SELENIUM\workspace-selenium\TestNg_Framework\testng4.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite name=&quot;LoanDepartmentSuite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;listeners.TestNgListeners&quot;/&gt;
+  &lt;/listeners&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Regression&quot;&gt;
+    &lt;parameter name=&quot;URL&quot; value=&quot;https://rahulshettyacademy.com/seleniumPractise/#/&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;test.TestNgDay5&quot;/&gt;
     &lt;/classes&gt;
@@ -258,36 +323,48 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(6);
+data.addRows(9);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'testcase6')
+data.setCell(0, 1, 'testcase7')
 data.setCell(0, 2, 'test.TestNgDay5')
-data.setCell(0, 3, 7);
+data.setCell(0, 3, 10);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'testcase2')
 data.setCell(1, 2, 'test.TestNgDay5')
 data.setCell(1, 3, 4);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'testcase7')
+data.setCell(2, 1, 'testcase6')
 data.setCell(2, 2, 'test.TestNgDay5')
-data.setCell(2, 3, 2);
+data.setCell(2, 3, 3);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'testcase4')
+data.setCell(3, 1, 'testcase3')
 data.setCell(3, 2, 'test.TestNgDay5')
-data.setCell(3, 3, 2);
+data.setCell(3, 3, 1);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'testcase1')
 data.setCell(4, 2, 'test.TestNgDay5')
 data.setCell(4, 3, 1);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'testcase3')
+data.setCell(5, 1, 'testcase4')
 data.setCell(5, 2, 'test.TestNgDay5')
 data.setCell(5, 3, 1);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testcase9')
+data.setCell(6, 2, 'test.TestNgDay5')
+data.setCell(6, 3, 1);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testcase9')
+data.setCell(7, 2, 'test.TestNgDay5')
+data.setCell(7, 3, 1);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testcase9')
+data.setCell(8, 2, 'test.TestNgDay5')
+data.setCell(8, 3, 1);
 window.suiteTableData['LoanDepartmentSuite']= { tableData: data, tableDiv: 'times-div-LoanDepartmentSuite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 17 ms</span>
+              <span class="suite-total-time">Total running time: 23 ms</span>
               <div id="times-div-LoanDepartmentSuite">
               </div> <!-- times-div-LoanDepartmentSuite -->
             </div> <!-- times-div -->
@@ -302,12 +379,14 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-LoanDepartmentSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">1 ignored method</span>
+            <span class="header-content">2 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="ignored-class-div">
               <span class="ignored-class-name">test.TestNgDay5</span>
               <div class="ignored-methods-div">
+                <span class="ignored-method-name">testcase8</span>
+                <br/>
                 <span class="ignored-method-name">testcase5</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
@@ -327,39 +406,53 @@ return data;
               </div> <!-- configuration-suite before -->
               <div class="configuration-test before">
                 <span class="method-name">prerequsite</span>
-                <span class="method-start">19 ms</span>
+                <span class="method-start">12 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">testcase2</span>
-                <span class="method-start">46 ms</span>
+                <span class="method-start">32 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testcase3</span>
-                <span class="method-start">53 ms</span>
+                <span class="method-start">40 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testcase6</span>
-                <span class="method-start">57 ms</span>
+                <span class="method-start">43 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">testcase7</span>
-                <span class="method-start">65 ms</span>
+                <span class="method-start">48 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testcase9(FirstSetUserName, password1)</span>
+                <span class="method-start">64 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testcase9(SecondSetUserName, password2)</span>
+                <span class="method-start">67 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testcase9(ThirdSetUserName, password3)</span>
+                <span class="method-start">69 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testcase1</span>
-                <span class="method-start">68 ms</span>
+                <span class="method-start">72 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testcase4</span>
-                <span class="method-start">75 ms</span>
+                <span class="method-start">79 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">postrequiste</span>
-                <span class="method-start">78 ms</span>
+                <span class="method-start">81 ms</span>
               </div> <!-- configuration-test after -->
               <div class="configuration-suite after">
                 <span class="method-name">lastTobeRun</span>
-                <span class="method-start">149 ms</span>
+                <span class="method-start">144 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
