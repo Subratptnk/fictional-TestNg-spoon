@@ -3,22 +3,17 @@
 <suite name="LoanDepartmentSuite">
   <test thread-count="5" name="PersonalLoan">
     <classes>
-      <class name="test.TestNgDay1">
-		<methods>
+      <class name="test.TestNgDay5">
+		<!--<methods>
 			<include name="demo"></include>
-		</methods>
+		</methods> -->
 		</class>
-	  <class name="test.TestNgDay2"/>
-	  <class name="test.TestNgDay4"/>
+	  <class name="test.TestNgDay5"/>
+	  <class name="test.TestNgDay5"/>
     </classes>
   </test> 
 
-	<packages>
-		<package name="test"/>
-
-	</packages>
-
-<test name="Car loan">
+<!-- <test name="Car loan">  
 	<classes>
 		<class name="test.TestNgDay3">
 			<methods>
@@ -26,9 +21,14 @@
 			</methods>
 	
 		</class>
-	</classes>
+	</classes> 
 
+	<packages>
+		<package name="test"/>
+
+	</packages>
 
 
 </test>
+-->
 </suite> <!-- Suite -->
